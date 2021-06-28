@@ -1,0 +1,68 @@
+  
+  h1 {
+    color:aquamarine    
+   }
+ 
+   h2{
+     color:orangered;
+   }
+ 
+   .header{
+     background-color:cornflowerblue;
+     display : flex;
+     justify-content: space-between;
+   }
+ 
+   .grid{
+     background-color: crimson;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     color:lightseagreen;
+   }
+ 
+   .origami{
+     background-color: cornsilk;
+     position:relative;
+   }
+ 
+   .text{
+     color:black;  
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+   }
+ 
+   .me{
+     color:#00f0ff;
+   }
+ 
+   .wiki{
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+   }
+ 
+   body{
+     background-color: #000000;
+   }
+ 
+   a:link{
+     color:black;
+ }
+ 
+ a:visited{
+     color:black;
+ }
+ 
+   .origami h4{
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     opacity:0;
+   }
+ 
+   .origami:hover h4 {
+     opacity:1;
+   }
